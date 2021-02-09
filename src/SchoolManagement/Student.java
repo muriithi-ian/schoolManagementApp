@@ -52,4 +52,9 @@ public class Student {
         this.feesPaid += fees;
         School.updateMoneyEarned(fees);
     }
+    @Override
+    public String toString() {
+        return "Student's name :"+name+
+                " Total fees paid so far $"+ feesPaid;
+    }
 }
