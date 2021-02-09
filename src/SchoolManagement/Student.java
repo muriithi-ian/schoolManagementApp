@@ -50,6 +50,6 @@ public class Student {
 
     public void payFees(int fees) {
         this.feesPaid += fees;
-        School.updateFeesPaid(fees);
+        School.updateMoneyEarned(fees);
     }
 }
